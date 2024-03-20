@@ -1,4 +1,4 @@
-import './App.scss';
+import 'sass/main.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { HomePage, LoginPage, SignUpPage, DashboardPage } from 'pages';
 
