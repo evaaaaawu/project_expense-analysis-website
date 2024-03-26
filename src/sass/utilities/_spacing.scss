@@ -1,7 +1,15 @@
 @use "../abstracts" as *;
 
+.hero {
+  padding-block: $hero-padding-block;
+}
+
 .section {
   padding-block: $section-padding-block;
+}
+
+.form {
+  padding-block: $form-padding-block;
 }
 
 .mx-auto {

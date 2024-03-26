@@ -1,11 +1,13 @@
 import HomePage from "./HomePage";
-import LoginPage from "./LoginPage";
+import WelcomePage from "./WelcomePage";
 import SignUpPage from "./SignUpPage";
+import LoginPage from "./LoginPage";
 import DashboardPage from "./DashboardPage";
 
 export {
   HomePage,
-  LoginPage,
+  WelcomePage,
   SignUpPage,
+  LoginPage,
   DashboardPage,
 };

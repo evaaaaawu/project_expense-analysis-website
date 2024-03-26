@@ -21,6 +21,12 @@ input:not(.button) {
   padding: $form-input-padding;
   border: $form-input-border-default;
   border-radius: $form-input-border-radius;
+
+  &:focus {
+    outline: none;
+    border: $form-input-border-focus;
+    border-bottom: $form-input-border-bottom-focus;
+  }
 }
 
 ::placeholder {

@@ -9,8 +9,12 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      'pages': resolve(__dirname, 'src/pages'),
       'sass': resolve(__dirname, 'src/sass'),
+      'pages': resolve(__dirname, 'src/pages'),
+      'components': resolve(__dirname, 'src/components'),
+      'context': resolve(__dirname, 'src/context'),
+      'assets': resolve(__dirname, 'src/assets'),
+      'api': resolve(__dirname, 'src/api'),
       // 使用 resolve 確保路徑正確
     },
   },
